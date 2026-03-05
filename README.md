@@ -30,6 +30,8 @@ This API fetches weather data from an external weather service and caches it in 
 ---
 
 ## Project Structure
+
+```
 weather-api
 │
 ├── src
@@ -44,7 +46,7 @@ weather-api
 ├── .env
 ├── package.json
 └── README.md
-
+```
 
 ---
 
@@ -91,3 +93,4 @@ REDIS_PORT=6379
 | `npm run lint:fix` | Fix lint issues           |
 | `npm run format`   | Format code with Prettier |
 | `npm test`         | Run lint + tests          |
+```

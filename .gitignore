@@ -3,4 +3,5 @@ coverage/
 dist
 .env
 *.rdb
+.DS_Store
 package-lock.json
