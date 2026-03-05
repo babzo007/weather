@@ -3,6 +3,9 @@
 Simple **Weather API** built with **Node.js, Express, TypeScript, and Redis caching**.  
 This API fetches weather data from an external weather service and caches it in Redis to improve performance and reduce API calls.
 
+## Project URL 
+https://roadmap.sh/projects/weather-api-wrapper-service
+
 ---
 
 ## Features
