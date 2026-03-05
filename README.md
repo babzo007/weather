@@ -93,4 +93,3 @@ REDIS_PORT=6379
 | `npm run lint:fix` | Fix lint issues           |
 | `npm run format`   | Format code with Prettier |
 | `npm test`         | Run lint + tests          |
-```
