@@ -1,10 +1,16 @@
+jest.mock("redis");
+
 import { createClient } from "redis";
 import { RedisClient } from "../../src/redis";
 
-jest.mock("redis");
+interface MockRedisClient {
+  connect: jest.Mock;
+  get: jest.Mock;
+  set: jest.Mock;
+}
 
 describe("RedisClient", () => {
-  let mockClient: any;
+  let mockClient: MockRedisClient;
   let redisClient: RedisClient;
 
   beforeEach(() => {
