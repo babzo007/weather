@@ -1,4 +1,5 @@
 node_modules
 dist
 .env
-.rdb
+*.rdb
+package-lock.json

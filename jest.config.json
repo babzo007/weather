@@ -3,5 +3,13 @@
   "collectCoverage": true,
   "collectCoverageFrom": ["src/**/*.ts", "!**/*.d.ts"],
   "testEnvironment": "node",
-  "testPathIgnorePatterns": ["<rootDir>/node_modules/", "<rootDir>/dist/"]
+  "testPathIgnorePatterns": ["<rootDir>/node_modules/", "<rootDir>/dist/"],
+  "coveragePathIgnorePatterns": [
+    "<rootDir>/src/types/",
+    "<rootDir>/src/server.ts"
+  ],
+  "moduleNameMapper": {
+    "^redis$": "<rootDir>/__mocks__/redis.ts",
+    "^axios$": "<rootDir>/__mocks__/axios.ts"
+  }
 }
